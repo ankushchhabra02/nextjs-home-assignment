@@ -2,7 +2,7 @@
 
 import { useState, Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDown, Bell, User } from "lucide-react";
+import { ChevronDown, Bell } from "lucide-react";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
 
