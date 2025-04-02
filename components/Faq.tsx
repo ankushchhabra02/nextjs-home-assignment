@@ -32,16 +32,16 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <section className="w-6xl mx-auto mt-12 px-8 mb-17">
-      <h2 className="text-3xl font-bold text-center text-gray-900 mb-6">
+    <section className="max-w-6xl mx-auto mt-12 px-4 md:px-8 mb-17">
+      <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-6">
         Frequently Asked Questions
       </h2>
 
-      <div className="border border-gray-300 rounded-lg bg-white shadow-lg">
+      <div className="border border-gray-300 rounded-lg bg-white shadow-lg md:w-5xl">
         {faqs.map((faq, index) => (
           <div key={index} className="border-b last:border-b-0">
             <button
-              className="flex justify-between items-center w-full text-left text-lg font-semibold text-gray-900 p-4"
+              className="flex justify-between items-center w-full text-left text-base md:text-lg font-semibold text-gray-900 p-3 md:p-4"
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
@@ -53,7 +53,9 @@ const Faq: React.FC = () => {
             </button>
 
             {openIndex === index && (
-              <p className="px-4 pb-4 text-gray-600">{faq.answer}</p>
+              <p className="px-3 md:px-4 pb-3 md:pb-4 text-gray-600 text-sm md:text-base">
+                {faq.answer}
+              </p>
             )}
           </div>
         ))}

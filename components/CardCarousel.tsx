@@ -76,7 +76,7 @@ const CardCarousel: React.FC = () => {
       <h2 className="text-3xl font-bold text-center mb-6 relative">
         <span className="text-purple-400">
           <svg
-            className="absolute bottom-0 left-70" // Fix: Correct Tailwind class
+            className="absolute bottom-0 left-70 md:block hidden" // Fix: Correct Tailwind class
             width="44"
             height="79"
             viewBox="0 0 64 79"

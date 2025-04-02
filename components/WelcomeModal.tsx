@@ -163,9 +163,9 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                             <path
                               d="M6.5 10H13.5"
                               stroke="white"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="1.5"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                           </svg>
                         </button>
@@ -187,12 +187,12 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                               rx="10"
                               fill="#A414D5"
                             />
-                            <g clip-path="url(#clip0_1_4730)">
+                            <g clipPath="url(#clip0_1_4730)">
                               <path
                                 d="M10 15V5M5 10H15"
                                 stroke="white"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
+                                strokeWidth="1.5"
+                                strokeLinecap="round"
                               />
                             </g>
                             <defs>
@@ -248,9 +248,9 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                         <path
                           d="M6.5 10H13.5"
                           stroke="white"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </button>
@@ -267,12 +267,12 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <rect width="20" height="20" rx="10" fill="#A414D5" />
-                        <g clip-path="url(#clip0_1_4730)">
+                        <g clipPath="url(#clip0_1_4730)">
                           <path
                             d="M10 15V5M5 10H15"
                             stroke="white"
-                            stroke-width="1.5"
-                            stroke-linecap="round"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
                           />
                         </g>
                         <defs>
@@ -326,7 +326,7 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                               d="M23.6499 23.65V0.350071H0.35V23.65H23.6499Z"
                               fill="white"
                               stroke="white"
-                              stroke-width="0.7"
+                              strokeWidth="0.7"
                             />
                           </mask>
                           <g mask="url(#mask0_1_4761)">
@@ -334,7 +334,7 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                               d="M8.21282 16.1103L9.70835 14.6147L7.95182 13.6489L6.85165 14.7491C6.47575 15.125 6.47575 15.7344 6.85165 16.1103C7.22754 16.4862 7.83693 16.4862 8.21282 16.1103Z"
                               fill="#FFDDCF"
                               stroke="black"
-                              stroke-width="0.7"
+                              strokeWidth="0.7"
                             />
                             <path
                               d="M5.5115 9.75931L3.68638 11.5844C3.17381 12.097 2.34281 12.097 1.83023 11.5844C1.31766 11.0719 1.31766 10.2409 1.83023 9.72828L3.11624 8.44227C4.71131 6.84721 6.87467 5.95111 9.13043 5.95111C12.2576 5.95111 15.1326 7.66715 16.6168 10.4197L18.0002 12.9851L16.1299 20.0625L5.5115 9.75931Z"
@@ -347,18 +347,18 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                             <path
                               d="M13.79 7.34027C14.9739 8.11516 15.9455 9.17336 16.6167 10.4189L18.0001 12.9844"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M5.5115 9.75932L3.68638 11.5844C3.17381 12.097 2.34281 12.097 1.83023 11.5844C1.31766 11.0719 1.31766 10.2409 1.83023 9.72829L3.11625 8.44228C4.71131 6.84721 6.87467 5.95112 9.13043 5.95111C9.18668 5.95111 9.24293 5.95167 9.29904 5.95275"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M16.7797 4.32483L13.8629 1.40805L2.7583 12.5126L5.67509 15.4294L16.7797 4.32483Z"
@@ -371,26 +371,26 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                             <path
                               d="M9.60246 11.5018L16.7794 4.32487L13.8626 1.40803L2.75802 12.5126L0.46875 17.7188L5.67486 15.4294L7.37004 13.7342"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M15.1092 3.07831L4.38281 13.8047"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M21.9218 20.1791L21.4611 21.8987C21.3271 22.3988 20.813 22.6956 20.3129 22.5616L16.6907 21.591C16.1905 21.457 15.8938 20.9429 16.0278 20.4428L18.066 12.8362C18.2 12.3361 18.714 12.0392 19.2142 12.1733L22.8364 13.1438C23.3365 13.2778 23.6333 13.7919 23.4993 14.292L23.0139 16.1033"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M12.0216 13.9938L9.18176 11.154C8.59597 10.5682 7.64624 10.5682 7.06044 11.154C6.47464 11.7398 6.47464 12.6896 7.06044 13.2753L9.90026 16.1152C10.9276 18.51 13.2828 20.0625 15.8887 20.0625H16.1295L14.0755 17.0282L12.0216 13.9938Z"
@@ -399,18 +399,18 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                             <path
                               d="M12.0216 13.9938L9.18176 11.154C8.59597 10.5682 7.64624 10.5682 7.06044 11.154C6.47464 11.7398 6.47464 12.6896 7.06044 13.2753L9.90026 16.1152C10.9276 18.51 13.2828 20.0625 15.8887 20.0625H16.1295"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                             <path
                               d="M2.7583 12.5129L5.67509 15.4297"
                               stroke="black"
-                              stroke-width="0.7"
-                              stroke-miterlimit="10"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
+                              strokeWidth="0.7"
+                              strokeMiterlimit="10"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
                             />
                           </g>
                         </g>
@@ -729,42 +729,42 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                         <path
                           d="M10.9229 13.8438C11.1042 14.2587 11.518 14.5487 11.9997 14.5487C12.4815 14.5487 12.8953 14.2587 13.0766 13.8438"
                           stroke="black"
-                          stroke-width="0.5"
-                          stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="0.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M8.7692 13.8343C9.1657 13.8343 9.48712 13.5129 9.48712 13.1164C9.48712 12.7199 9.1657 12.3984 8.7692 12.3984C8.3727 12.3984 8.05127 12.7199 8.05127 13.1164C8.05127 13.5129 8.3727 13.8343 8.7692 13.8343Z"
                           stroke="black"
-                          stroke-width="0.5"
-                          stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="0.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M15.9486 13.1164C15.9486 13.5129 15.6271 13.8343 15.2306 13.8343C14.8341 13.8343 14.5127 13.5129 14.5127 13.1164C14.5127 12.7199 14.8341 12.3984 15.2306 12.3984C15.6271 12.3984 15.9486 12.7199 15.9486 13.1164Z"
                           stroke="black"
-                          stroke-width="0.5"
-                          stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="0.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M17.3843 18.5H6.61536C5.02936 18.5 3.74365 17.2143 3.74365 15.6283V8.44901C3.74365 6.46653 5.35081 4.85938 7.33329 4.85938H16.6663C18.6488 4.85938 20.256 6.46653 20.256 8.44901V15.6283C20.256 17.2143 18.9703 18.5 17.3843 18.5Z"
                           stroke="black"
-                          stroke-width="0.5"
-                          stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="0.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M2.30793 11.3207C2.30793 10.529 2.95205 9.88487 3.74378 9.88487M3.74378 15.6283C2.95205 15.6283 2.30793 14.9842 2.30793 14.1924M2.30793 14.1924H0.87207V11.3207M2.30793 14.1924V5.5773C2.30793 5.18082 1.98649 4.85938 1.59 4.85938C1.19351 4.85938 0.87207 5.18082 0.87207 5.5773V9.88487M21.692 11.3207C21.692 10.529 21.0478 9.88487 20.2561 9.88487M20.2561 15.6283C21.0478 15.6283 21.692 14.9842 21.692 14.1924M21.692 14.1924H23.1278V11.3207M21.692 14.1924V5.5773C21.692 5.18082 22.0134 4.85938 22.4099 4.85938C22.8064 4.85938 23.1278 5.18082 23.1278 5.5773V9.88487M14.1537 4.85938V8.44901H9.84617V4.85938M6.61549 17.0641C5.82376 17.0641 5.17964 16.42 5.17964 15.6283V11.3207C5.17964 10.529 5.82376 9.88487 6.61549 9.88487H17.3844C18.1761 9.88487 18.8203 10.529 18.8203 11.3207V15.6283C18.8203 16.42 18.1761 17.0641 17.3844 17.0641H6.61549Z"
                           stroke="black"
-                          stroke-width="0.5"
-                          stroke-miterlimit="10"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="0.5"
+                          strokeMiterlimit="10"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>{" "}
                       <span className="text-purple-600 font-medium flex ">

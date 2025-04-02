@@ -34,7 +34,7 @@ const Card = () => {
         <h2 className="text-3xl font-bold text-gray-900 relative">
           <span className="text-purple-400 ">
             <svg
-              className="absolute bottom-0 left-95"
+              className="absolute bottom-0 left-95 hidden md:block"
               width="44"
               height="79"
               viewBox="0 0 64 79"

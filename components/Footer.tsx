@@ -19,7 +19,7 @@ const Footer = () => {
         <h2 className="text-2xl font-bold text-white flex items-center justify-center gap-2 relative">
           <span className="text-purple-400 ">
             <svg
-              className="absolute bottom-0 left-120"
+              className="absolute bottom-0 left-120 hidden md:block"
               width="44"
               height="79"
               viewBox="0 0 64 79"

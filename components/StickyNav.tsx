@@ -38,7 +38,7 @@ const StickyNav = () => {
   };
 
   return (
-    <nav className="fixed right-0 top-1/4 z-50  p-4 rounded-lg">
+    <nav className="fixed right-0 top-1/4 z-50  p-4 rounded-lg hidden md:block">
       <ul className="space-y-3">
         {[
           { id: "how-it-works", label: "How It Works" },

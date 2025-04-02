@@ -43,12 +43,12 @@ const Review = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto text-center mt-8">
+    <section className="max-w-6xl mx-auto text-center mt-8 hidden md:block">
       {/* Reviews Heading */}
       <h2 className="text-3xl font-bold text-gray-900 relative">
         <span className="text-purple-400 ">
           <svg
-            className="absolute bottom-0 left-55"
+            className="absolute bottom-0 left-55 md:block hidden"
             width="44"
             height="79"
             viewBox="0 0 64 79"
