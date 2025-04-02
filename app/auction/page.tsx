@@ -100,7 +100,7 @@ const AuctionPage = () => {
     <div className="min-h-screen bg-amber-50 flex flex-col items-center py-10 px-4 ">
       {/* Progress Bar */}
       <div className="bg-white shadow-md rounded-lg p-5 w-full max-w-6xl relative">
-        <div className="absolute top-9 left-30 w-[78%] h-1 bg-gray-300">
+        <div className="absolute top-9 left-10 md:absolute md:top-9 md:left-30 w-[78%] h-1 bg-gray-300">
           <div
             className="h-1 bg-[#640D51] transition-all duration-300"
             style={{
@@ -151,10 +151,10 @@ const AuctionPage = () => {
       <div className="mt-8 flex w-full max-w-6xl gap-6 ">
         {/* Tutor List */}
         <div className="flex-1">
-          <h1 className="text-3xl font-bold relative">
+          <h1 className="text-2xl md:text-3xl font-bold relative">
             <span className="text-purple-400 ">
               <svg
-                className="absolute bottom-1 right-178"
+                className="absolute bottom-1 right-178 hidden md:block"
                 width="53"
                 height="56"
                 viewBox="0 0 53 56"
@@ -171,26 +171,27 @@ const AuctionPage = () => {
             </span>{" "}
             Choose an expert for your project
           </h1>
-          <p className="text-gray-500 mt-2">Sort by More Relevant</p>
+          <p className="text-gray-500 mt-2 ">Sort by More Relevant</p>
 
-          <div className="mt-6 space-y-4">
+          <div className="mt-0  p-7 mr-3 space-y-4">
             {tutors.map((tutor) => (
               <div
                 key={tutor.id}
-                className="bg-white rounded-lg shadow-md p-5 flex  justify-between border border-gray-200"
+                className="bg-white rounded-lg shadow-md p-5 flex items-center md:justify-between border flex-col md:flex-row border-gray-200"
               >
-                <div className="flex  space-x-4">
+                <div className="flex  space-x-4 flex-col md:flex-row">
                   <Image
                     src={tutor.profilePic}
                     width={160}
                     height={160}
-                    className="rounded-xl"
+                    className="rounded-xl "
                     alt={tutor.name}
                   />
                   <div>
-                    <h2 className="text-xl font-semibold">{tutor.name}</h2>
+                    <h2 className="md:text-xl font-semibold">{tutor.name}</h2>
                     <svg
-                      width="297"
+                      className="hidden md:block"
+                      width="270"
                       height="30"
                       viewBox="0 0 297 30"
                       fill="none"
@@ -381,7 +382,7 @@ const AuctionPage = () => {
         </div>
 
         {/* Sidebar */}
-        <div className="w-full md:w-1/3 bg-white rounded-lg shadow-md p-6 space-y-4 mt-23">
+        <div className="w-full md:w-1/3 bg-white rounded-lg shadow-md p-6 space-y-4 mt-23 hidden md:block">
           <h2 className="text-lg font-bold flex items-center gap-2">
             <svg
               width="38"

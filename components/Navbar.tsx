@@ -107,9 +107,13 @@ const Navbar = () => {
             Refer a Friend
           </button>
           <Bell className="w-6 h-6 text-gray-700 cursor-pointer hover:text-purple-700" />
-          <div className="w-8 h-8 rounded-full overflow-hidden border">
-            <Image src="/profile.jpeg" alt="Profile" width={32} height={32} />
-          </div>
+
+          <Link href="/active">
+            <div className="relative z-10 w-8 h-8 rounded-full overflow-hidden border cursor-pointer">
+              <Image src="/profile.jpeg" alt="Profile" width={32} height={32} />
+            </div>
+          </Link>
+
           <SignUpModal />
         </div>
       )}

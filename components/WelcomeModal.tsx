@@ -66,9 +66,9 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                 Welcome XpertBuddy
               </Dialog.Title>
 
-              <div className="flex flex-col md:flex-row gap-6">
+              <div className="flex flex-col md:flex-row gap-6 overflow-y-auto p-2 max-h-[90vh]">
                 {/* Left Side: Form Inputs */}
-                <div className="w-full md:w-2/3">
+                <div className="w-full md:w-2/3 ">
                   <div className="mb-4">
                     <label className="block text-sm font-medium">Title</label>
                     <input
