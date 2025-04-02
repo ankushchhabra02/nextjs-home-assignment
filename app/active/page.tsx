@@ -3,7 +3,6 @@ import React from "react";
 import {
   FaSearch,
   FaCalendarAlt,
-  FaFileAlt,
   FaChevronLeft,
   FaChevronRight,
   FaIdBadge,
