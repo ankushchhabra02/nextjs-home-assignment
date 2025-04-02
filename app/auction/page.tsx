@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 const AuctionPage = () => {
-  const [activeStep, setActiveStep] = useState(2);
+  const [activeStep] = useState(2);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
   const steps = [
@@ -140,10 +140,10 @@ const AuctionPage = () => {
         <p className="mt-2 text-gray-600">
           An annotated bibliography is a list of sources (books, articles,
           documents, etc.) that includes a brief summary and evaluation of each
-          source. The title "Annotated Bibliography" should reflect the purpose
-          of the document: to showcase research materials along with concise,
-          critical, and descriptive notes about their content, relevance, and
-          quality.
+          source. The title &quot;Annotated Bibliography&quot; should reflect
+          the purpose of the document: to showcase research materials along with
+          concise, critical, and descriptive notes about their content,
+          relevance, and quality.
         </p>
       </div>
 

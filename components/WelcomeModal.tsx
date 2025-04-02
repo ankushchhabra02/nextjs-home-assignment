@@ -2,7 +2,7 @@
 
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import { X, Plus, Minus } from "lucide-react";
+import { X } from "lucide-react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Link from "next/link";
@@ -801,7 +801,7 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                     </li>
                     <li>
                       The deposit remains in your balance until the order is
-                      ready and you're satisfied.
+                      ready and you&apos;re satisfied.
                     </li>
                   </ul>
                 </div>
