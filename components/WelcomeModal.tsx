@@ -62,7 +62,7 @@ const WelcomeDialog: React.FC<WelcomeDialogProps> = ({ isOpen, setIsOpen }) => {
                 <X className="w-5 h-5" />
               </button>
 
-              <Dialog.Title className="text-2xl font-bold text-center mb-4">
+              <Dialog.Title className="text-2xl font-bold text-center mt-6 mb-4">
                 Welcome XpertBuddy
               </Dialog.Title>
 

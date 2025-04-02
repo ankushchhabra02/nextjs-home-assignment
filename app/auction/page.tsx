@@ -315,7 +315,7 @@ const AuctionPage = () => {
             ))}
           </div>
           {/* Promotion Banner */}
-          <div className="flex items-center justify-start  p-4 mt-5 border rounded-lg bg-white shadow-md">
+          <div className=" items-center justify-start  p-4 mt-5 border rounded-lg bg-white shadow-md hidden md:flex">
             <svg
               width="102"
               height="131"
@@ -352,7 +352,7 @@ const AuctionPage = () => {
           </div>
 
           {/* Pagination */}
-          <div className="mt-4 flex items-center justify-center space-x-2">
+          <div className="mt-4  items-center justify-center space-x-2 hidden md:flex">
             <button className="px-2 py-1 text-gray-600 bg-white border rounded-md">
               « First
             </button>
