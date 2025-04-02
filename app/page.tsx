@@ -3,11 +3,11 @@ import Image from "next/image";
 import React, { useState } from "react";
 import bgImage from "@/public/background.png";
 import manImage from "@/public/man.png";
-import Card from "./components/Card";
-import CardCarousel from "./components/CardCarousel";
-import Review from "./components/Review";
-import Faq from "./components/Faq";
-import StickyNav from "./components/StickyNav";
+import Card from "../components/Card";
+import CardCarousel from "../components/CardCarousel";
+import Review from "../components/Review";
+import Faq from "../components/Faq";
+import StickyNav from "../components/StickyNav";
 
 export default function Home() {
   const [description, setDescription] = useState("");
@@ -69,19 +69,19 @@ export default function Home() {
             When You Accept An Offer!
           </p>
 
-          <button className="bg-purple-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-700">
+          <button className="bg-purple-600 text-white px-6 py-3 rounded-full shadow-2xl font-bold hover:bg-purple-700">
             Find an Expert
           </button>
         </div>
 
         {/* Man Image */}
-        <div className="relative z-10 w-1/2 flex justify-between-">
+        <div className="relative z-10 w-1/2 flex justify-between ">
           <Image
             src={manImage}
             alt="Man"
             width={700}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg "
           />
         </div>
       </div>

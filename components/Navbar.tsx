@@ -5,6 +5,8 @@ import { Menu, Transition } from "@headlessui/react";
 import { ChevronDown, Bell } from "lucide-react";
 import Image from "next/image";
 import logo from "@/public/logo.svg";
+import SignUpModal from "./SignUpModal";
+import Link from "next/link";
 
 const Navbar = () => {
   const [currency, setCurrency] = useState("USD");
@@ -12,9 +14,15 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center bg-white px-6 py-3 shadow-md">
       {/* Left Section - Logo and Links */}
-      <div className="flex items-center space-x-6">
-        <Image src={logo} alt="Logo" width={40} height={40} />
-        <div className="text-xl font-bold text-purple-700">BUDDY</div>
+      <Link href="/">
+        <div className="flex items-center ml-10 space-x-6">
+          <Image src={logo} alt="Logo" width={40} height={40} />
+          <div className="text-xl font-bold text-purple-700">BUDDY</div>
+        </div>
+      </Link>
+
+      {/* Right Section - Refer, Language, Icons, Profile */}
+      <div className="flex flex-[0.6] items-center justify-evenly  relative">
         <a href="#" className="text-gray-700 hover:text-purple-700">
           Find Tutor
         </a>
@@ -24,10 +32,6 @@ const Navbar = () => {
         <div className="flex items-center bg-yellow-100 px-2 py-1 rounded-md text-sm font-medium">
           <span className="text-yellow-700">💰 0 USD</span>
         </div>
-      </div>
-
-      {/* Right Section - Refer, Language, Icons, Profile */}
-      <div className="flex items-center space-x-4 relative">
         {/* Refer a Friend Button */}
         <button className="border border-purple-500 text-purple-700 px-3 py-1 rounded-md hover:bg-purple-100">
           Refer a Friend
@@ -81,6 +85,7 @@ const Navbar = () => {
             height={32}
           />
         </div>
+        <SignUpModal />
       </div>
     </nav>
   );
