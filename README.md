@@ -58,13 +58,13 @@ This project is a Next.js v15-based implementation of a Figma design. It include
 
 ## Demo
 
-Here’s a preview of LaxmiChitFund in action:
+Here’s a preview of ExperBuddy in action:
 
 1. Home Page : https://nextjs-home-assignment.vercel.app/
-   ![](public\DemoScreenshots\homePage.png)
+   ![](public/DemoScreenshots/homePage.png)
 
 2. Auction Page : https://nextjs-home-assignment.vercel.app/auction
-   ![](public\DemoScreenshots\expertPage.png)
+   ![](public/DemoScreenshots/expertPage.png)
 
 3. Active Page : https://nextjs-home-assignment.vercel.app/active
-   ![](public\DemoScreenshots\activePage.png)
+   ![](public/DemoScreenshots/activePage.png)
