@@ -7,6 +7,7 @@ import {
   FaChevronRight,
   FaIdBadge,
 } from "react-icons/fa";
+import { Tab, TabGroup, TabList } from "@headlessui/react";
 import Image from "next/image";
 
 // Sample JSON data for projects
@@ -52,13 +53,51 @@ const AuctionPage = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex flex-wrap gap-2 md:gap-4 mb-6">
-        <button className="bg-purple-600 text-white px-4 py-2 rounded-lg">
-          All ({projects.length})
-        </button>
-        <button className="text-gray-600">At the Auction (1)</button>
-        <button className="text-gray-600">In Process (0)</button>
-        <button className="text-gray-600">Under Warranty (0)</button>
+      <div className=" flex-wrap gap-2 md:gap-4 mb-6 hidden md:flex">
+        <TabGroup>
+          <TabList className="flex gap-4">
+            <Tab
+              className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none 
+data-[selected]:bg-black/10 data-[hover]:bg-black/5 
+data-[selected]:data-[hover]:bg-black/10 data-[focus]:outline-1 data-[focus]:outline-black
+"
+            >
+              All ({projects.length})
+            </Tab>
+            <Tab
+              className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none 
+data-[selected]:bg-black/10 data-[hover]:bg-black/5 
+data-[selected]:data-[hover]:bg-black/10 data-[focus]:outline-1 data-[focus]:outline-black
+"
+            >
+              At the Auction (1)
+            </Tab>
+            <Tab
+              className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none 
+data-[selected]:bg-black/10 data-[hover]:bg-black/5 
+data-[selected]:data-[hover]:bg-black/10 data-[focus]:outline-1 data-[focus]:outline-black
+"
+            >
+              In Process (0)
+            </Tab>
+            <Tab
+              className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none 
+data-[selected]:bg-black/10 data-[hover]:bg-black/5 
+data-[selected]:data-[hover]:bg-black/10 data-[focus]:outline-1 data-[focus]:outline-black
+"
+            >
+              Under Warranty (0)
+            </Tab>
+            <Tab
+              className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none 
+data-[selected]:bg-black/10 data-[hover]:bg-black/5 
+data-[selected]:data-[hover]:bg-black/10 data-[focus]:outline-1 data-[focus]:outline-black
+"
+            >
+              Completed (0)
+            </Tab>
+          </TabList>
+        </TabGroup>
       </div>
 
       {/* Main Content */}
@@ -116,7 +155,7 @@ const AuctionPage = () => {
                 </div>
 
                 {/* Right Section */}
-                <div className="text-right flex flex-col items-center md:items-end">
+                <div className="text-right flex flex-col items-center md:items-center">
                   <p className="text-lg font-bold text-amber-950">
                     {project.bids} Bid{project.bids > 1 ? "s" : ""}
                   </p>

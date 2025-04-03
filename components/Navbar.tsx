@@ -83,7 +83,9 @@ const Navbar = () => {
               </Menu.Items>
             </Transition>
           </Menu>
-          <Bell className="w-6 h-6 text-gray-700 cursor-pointer hover:text-purple-700" />
+          <Link href="/active">
+            <Bell className="w-6 h-6 text-gray-700 cursor-pointer hover:text-purple-700" />
+          </Link>
           <div className="w-8 h-8 rounded-full overflow-hidden border">
             <Image src="/profile.jpeg" alt="Profile" width={32} height={32} />
           </div>

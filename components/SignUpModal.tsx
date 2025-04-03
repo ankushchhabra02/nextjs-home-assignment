@@ -3,6 +3,7 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import WelcomeModal from "./WelcomeModal"; // Import WelcomeModal
+import Link from "next/link";
 
 const SignUpModal: React.FC = () => {
   const [isSignUpOpen, setIsSignUpOpen] = useState<boolean>(false);
@@ -104,7 +105,16 @@ const SignUpModal: React.FC = () => {
                 {/* Already Registered */}
                 <p className="text-center text-sm mt-8">
                   Already registered?{" "}
-                  <span className="text-purple-600 cursor-pointer">Log In</span>
+                  <Link href="/active">
+                    <span
+                      onClick={() => {
+                        setIsSignUpOpen(false);
+                      }}
+                      className="text-purple-600 cursor-pointer"
+                    >
+                      Log In
+                    </span>
+                  </Link>
                 </p>
               </Dialog.Panel>
             </Transition.Child>

@@ -8,6 +8,7 @@ import CardCarousel from "../components/CardCarousel";
 import Review from "../components/Review";
 import Faq from "../components/Faq";
 import StickyNav from "../components/StickyNav";
+import Link from "next/link";
 
 export default function Home() {
   const [description, setDescription] = useState("");
@@ -69,9 +70,11 @@ export default function Home() {
             When You Accept An Offer!
           </p>
 
-          <button className="bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg font-bold hover:bg-purple-700">
-            Find an Expert
-          </button>
+          <Link href="/auction">
+            <button className="bg-purple-600 text-white px-6 py-3 rounded-full shadow-lg font-bold hover:bg-purple-700">
+              Find an Expert
+            </button>
+          </Link>
         </div>
 
         {/* Man Image */}
