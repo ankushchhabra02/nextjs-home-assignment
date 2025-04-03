@@ -21,7 +21,7 @@ This project is a Next.js v15-based implementation of a Figma design. It include
 1. **Clone the repository**
    ```bash
    git clone https://github.com/ankushchhabra02/nextjs-home-assignment.git
-   cd your-repo
+   cd nextjs-home-assignment
    ```
 2. **Install dependencies:**
    ```bash
