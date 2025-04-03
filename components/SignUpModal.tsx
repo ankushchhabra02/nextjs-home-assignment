@@ -4,6 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import WelcomeModal from "./WelcomeModal"; // Import WelcomeModal
 import Link from "next/link";
+import GitHubSignInButton from "./GitHubSignInButton";
 
 const SignUpModal: React.FC = () => {
   const [isSignUpOpen, setIsSignUpOpen] = useState<boolean>(false);
@@ -93,7 +94,7 @@ const SignUpModal: React.FC = () => {
 
                 {/* Sign Up Button */}
                 <button
-                  className="w-1/3 bg-purple-600 text-white py-2 rounded-full hover:bg-purple-700"
+                  className="w-1/3 bg-purple-600  text-white py-2 rounded-full hover:bg-purple-700 mb-3"
                   onClick={() => {
                     setIsSignUpOpen(false);
                     setIsWelcomeOpen(true);
@@ -101,7 +102,7 @@ const SignUpModal: React.FC = () => {
                 >
                   Sign Up
                 </button>
-
+                <GitHubSignInButton />
                 {/* Already Registered */}
                 <p className="text-center text-sm mt-8">
                   Already registered?{" "}
