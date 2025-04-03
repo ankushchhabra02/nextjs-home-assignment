@@ -2,6 +2,15 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
 
 const AuctionPage = () => {
   const [activeStep] = useState(2);
@@ -352,8 +361,26 @@ const AuctionPage = () => {
           </div>
 
           {/* Pagination */}
-          <div className="mt-4  items-center justify-center space-x-2 hidden md:flex">
-            <button className="px-2 py-1 text-gray-600 bg-white border rounded-md">
+          <div className="mt-4  items-center justify-center space-x-2 flex">
+            <Pagination>
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                  <PaginationLink href="#">1</PaginationLink>
+                  <PaginationLink href="#">2</PaginationLink>
+                  <PaginationLink href="#">3</PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                  <PaginationEllipsis />
+                </PaginationItem>
+                <PaginationItem>
+                  <PaginationNext href="#" />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
+            {/* <button className="px-2 py-1 text-gray-600 bg-white border rounded-md">
               « First
             </button>
             <button className="px-2 py-1 text-gray-600 bg-white border rounded-md">
@@ -377,7 +404,7 @@ const AuctionPage = () => {
             </button>
             <button className="px-2 py-1 text-gray-600 bg-white border rounded-md">
               Last »
-            </button>
+            </button>*/}
           </div>
         </div>
 
