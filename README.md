@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Home Assignment
 
-## Getting Started
+This project is a Next.js v15-based implementation of a Figma design. It includes responsive UI components built with Tailwind CSS, ShadCN/UI, Mantine, MagicUI, and Headless UI.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js v15** – Latest features and optimizations
+- **Tailwind CSS** – Utility-first styling
+- **ShadCN/UI, Mantine, MagicUI, Headless UI** – Component libraries for building UI
+- **GitHub Authentication** – Implemented using NextAuth.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js v15, Tailwind CSS, ShadCN/UI, Mantine, MagicUI, Headless UI
+- **Authentication:** NextAuth.js with GitHub OAuth
+- **State Management:** React Hooks
+- **Tools:** ESLint, Prettier
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Installation & Setup
 
-## Learn More
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Set up environment variables:**
+   Create a .env.local file in the root directory and add the following:
+   ```bash
+   NEXTAUTH_URL=http://localhost:3000
+   GITHUB_ID=your_github_client_id
+   GITHUB_SECRET=your_github_client_secret
+   NEXTAUTH_SECRET=your_nextauth_secret
+   ```
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 Libraries Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Tailwind CSS** - Utility-first CSS framework
+- **Shadcn/UI** - Accessible and customizable UI components
+- **Mantine** - Component library for modern React UI
+- **MagicUI** - Lightweight and dynamic component library
+- **Headless UI** - Unstyled UI components for React
+- **NextAuth.js** - Authentication for Next.js applications
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Development Notes
 
-## Deploy on Vercel
+- The project follows Next.js best practices, including server and client components.
+- All components are reusable and follow modular design principles.
+- Authentication is handled via NextAuth.js with GitHub OAuth integration.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Here’s a preview of LaxmiChitFund in action:
+
+1. Home Page : https://nextjs-home-assignment.vercel.app/
+   ![](public\DemoScreenshots\homePage.png)
+
+2. Auction Page : https://nextjs-home-assignment.vercel.app/auction
+   ![](public\DemoScreenshots\expertPage.png)
+
+3. Active Page : https://nextjs-home-assignment.vercel.app/active
+   ![](public\DemoScreenshots\activePage.png)
